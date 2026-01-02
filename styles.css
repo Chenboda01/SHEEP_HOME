@@ -276,6 +276,33 @@ section h2 {
     color: #666;
 }
 
+/* Gameplay section */
+.gameplay {
+    background-color: #fff;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gameplay p {
+    max-width: 600px;
+    margin: 2rem auto 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
 /* Footer */
 footer {
     background-color: #4a7c59;
